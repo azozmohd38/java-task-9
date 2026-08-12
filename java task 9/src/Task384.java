@@ -8,6 +8,6 @@ public class Task384 {
     }
 
     public static void main(String[] args) {
-        IO.println(countChar("banana", 'a')); 
+        IO.println(countChar("banana", 'a'));
     }
 }
