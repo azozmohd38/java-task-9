@@ -11,6 +11,6 @@ public class Task381 {
 
     public static void main(String[] args) {
         System.out.println(isPowerOfTwo(16));
-        System.out.println(isPowerOfTwo(20)); 
+        System.out.println(isPowerOfTwo(20));
     }
 }
