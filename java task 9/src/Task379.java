@@ -6,7 +6,14 @@ public class Task379 {
         return 1 + length(text.substring(1));
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        System.out.println(length("cat"));
         System.out.println(length("hello"));
+        System.out.println(length(""));
+        System.out.println(length("a"));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
