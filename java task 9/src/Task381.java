@@ -6,7 +6,9 @@ public class Task381 {
         if (number <= 0 || number % 2 != 0) {
             return false;
         }
-        return isPowerOfTwo(number / 2);
+
+        int smaller = number / 2;
+        return isPowerOfTwo(smaller);
     }
 
     private static void runExamples() {
