@@ -3,8 +3,8 @@ public class Task384 {
         if (text.isEmpty()) {
             return 0;
         }
-        int match = (text.charAt(0) == letter) ? 1 : 0;
-        return match + countChar(text.substring(1), letter);
+        int current = text.charAt(0) == letter ? 1 : 0;
+        return current + countChar(text.substring(1), letter);
     }
 
     private static void runExamples() {
