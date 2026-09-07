@@ -4,7 +4,7 @@ public class Task376 {
             return;
         }
         printUp(n - 1);
-       IO.println(n);
+        IO.println(n);
     }
 
     public static void main(String[] args) {
