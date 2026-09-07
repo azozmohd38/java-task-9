@@ -1,12 +1,12 @@
 public class Task383 {
-    public static boolean isPalindrome(String str) {
-        if (str.length() <= 1) {
+    public static boolean isPalindrome(String text) {
+        if (text.length() <= 1) {
             return true;
         }
-        if (str.charAt(0) != str.charAt(str.length() - 1)) {
+        if (text.charAt(0) != text.charAt(text.length() - 1)) {
             return false;
         }
-        return isPalindrome(str.substring(1, str.length() - 1));
+        return isPalindrome(text.substring(1, text.length() - 1));
     }
 
     public static void main(String[] args) {
