@@ -6,7 +6,8 @@ public class Task383 {
         if (text.charAt(0) != text.charAt(text.length() - 1)) {
             return false;
         }
-        return isPalindrome(text.substring(1, text.length() - 1));
+        String middle = text.substring(1, text.length() - 1);
+        return isPalindrome(middle);
     }
 
     private static void runExamples() {
