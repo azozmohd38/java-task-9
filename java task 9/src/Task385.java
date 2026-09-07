@@ -1,14 +1,14 @@
 public class Task385 {
 
-    public static int sumArray(int[] arr) {
-        return sumArrayHelper(arr, 0);
+    public static int sumArray(int[] numbers) {
+        return sumArrayHelper(numbers, 0);
     }
 
-    private static int sumArrayHelper(int[] arr, int index) {
-        if (index >= arr.length) {
+    private static int sumArrayHelper(int[] numbers, int index) {
+        if (index >= numbers.length) {
             return 0;
         }
-        return arr[index] + sumArrayHelper(arr, index + 1);
+        return numbers[index] + sumArrayHelper(numbers, index + 1);
     }
 
     public static void main(String[] args) {
