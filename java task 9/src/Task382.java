@@ -10,8 +10,15 @@ public class Task382 {
         return isEven(number - 2);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        System.out.println(isEven(0));
         System.out.println(isEven(8));
+        System.out.println(isEven(7));
         System.out.println(isEven(15));
+        System.out.println(isEven(100));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
