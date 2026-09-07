@@ -7,6 +7,6 @@ public class Task379 {
     }
 
     public static void main(String[] args) {
-        IO.println(length("hello"));
+        System.out.println(length("hello"));
     }
 }
