@@ -12,7 +12,14 @@ public class Task386 {
         return Math.max(numbers[index], maxOfRest);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(findMax(new int[]{3, 7, 2, 9, 4}));
+        System.out.println(findMax(new int[]{1, 1, 1}));
+        System.out.println(findMax(new int[]{-5, -2, -8}));
+        System.out.println(findMax(new int[]{42}));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
