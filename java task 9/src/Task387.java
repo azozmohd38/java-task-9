@@ -21,4 +21,8 @@ public class Task387 {
         System.out.println(countVowels("sky"));
         System.out.println(countVowels("aeiou"));
     }
+
+    public static void main(String[] args) {
+        runExamples();
+    }
 }
