@@ -1,14 +1,14 @@
 public class Task386 {
 
     public static int findMax(int[] numbers) {
-        return findMaxHelper(numbers, 0);
+        return findFromIndex(numbers, 0);
     }
 
-    private static int findMaxHelper(int[] numbers, int index) {
+    private static int findFromIndex(int[] numbers, int index) {
         if (index == numbers.length - 1) {
             return numbers[index];
         }
-        int maxOfRest = findMaxHelper(numbers, index + 1);
+        int maxOfRest = findFromIndex(numbers, index + 1);
         return Math.max(numbers[index], maxOfRest);
     }
 
