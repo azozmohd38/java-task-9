@@ -7,7 +7,14 @@ public class Task384 {
         return match + countChar(text.substring(1), letter);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(countChar("banana", 'a'));
+        System.out.println(countChar("hello", 'l'));
+        System.out.println(countChar("apple", 'z'));
+        System.out.println(countChar("mississippi", 's'));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
