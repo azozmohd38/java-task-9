@@ -8,7 +8,8 @@ public class Task385 {
         if (index >= numbers.length) {
             return 0;
         }
-        return numbers[index] + addFromIndex(numbers, index + 1);
+        int rest = addFromIndex(numbers, index + 1);
+        return numbers[index] + rest;
     }
 
     private static void runExamples() {
