@@ -3,7 +3,8 @@ public class Task378 {
         if (second == 0) {
             return 0;
         }
-        return first + multiply(first, second - 1);
+        int rest = multiply(first, second - 1);
+        return first + rest;
     }
 
     private static void runExamples() {
