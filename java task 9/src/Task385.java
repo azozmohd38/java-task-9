@@ -12,6 +12,6 @@ public class Task385 {
     }
 
     public static void main(String[] args) {
-        System.out.println(sumArray(new int[]{10, 20, 30, 40})); // 100
+        System.out.println(sumArray(new int[]{10, 20, 30, 40}));
     }
 }
