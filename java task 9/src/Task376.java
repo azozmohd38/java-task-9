@@ -1,6 +1,6 @@
 public class Task376 {
     public static void printUp(int number) {
-        if (number <= 0) {
+        if (number < 1) {
             return;
         }
         printUp(number - 1);
