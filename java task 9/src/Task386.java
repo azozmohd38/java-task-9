@@ -1,15 +1,15 @@
 public class Task386 {
 
-    public static int findMax(int[] arr) {
-        return findMaxHelper(arr, 0);
+    public static int findMax(int[] numbers) {
+        return findMaxHelper(numbers, 0);
     }
 
-    private static int findMaxHelper(int[] arr, int index) {
-        if (index == arr.length - 1) {
-            return arr[index];
+    private static int findMaxHelper(int[] numbers, int index) {
+        if (index == numbers.length - 1) {
+            return numbers[index];
         }
-        int maxOfRest = findMaxHelper(arr, index + 1);
-        return Math.max(arr[index], maxOfRest);
+        int maxOfRest = findMaxHelper(numbers, index + 1);
+        return Math.max(numbers[index], maxOfRest);
     }
 
     public static void main(String[] args) {
