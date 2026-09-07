@@ -7,6 +7,6 @@ public class Task380 {
     }
 
     public static void main(String[] args) {
-       IO.println(sumDigits(4021));
+       System.out.println(sumDigits(4021));
     }
 }
