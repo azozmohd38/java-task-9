@@ -5,6 +5,13 @@ public class Task387 {
             return 0;
         }
 
-        return countVowels(text.substring(1));
+        char first = Character.toLowerCase(text.charAt(0));
+        int current = 0;
+
+        if (first == 'a' || first == 'e' || first == 'i' || first == 'o' || first == 'u') {
+            current = 1;
+        }
+
+        return current + countVowels(text.substring(1));
     }
 }
