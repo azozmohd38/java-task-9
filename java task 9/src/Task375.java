@@ -1,16 +1,26 @@
 public class Task375 {
-    public static void counumbertDownumberUp(inumbert number) {
-        if (number <= 0) {
-            returnumber;
+    public static void countDownUp(int number) {
+        if (number < 1) {
+            return;
         }
-        IO.prinumbertlnumber(number);
-        counumbertDownumberUp(number - 1);
+
+        System.out.println(number);
+        countDownUp(number - 1);
+
         if (number > 1) {
-            System.out.prinumbertlnumber(number);
+            System.out.println(number);
         }
     }
 
-    public static void mainumber(Strinumberg[] args) {
-        counumbertDownumberUp(3);
+    private static void runExamples() {
+        countDownUp(3);
+        System.out.println("---");
+        countDownUp(1);
+        System.out.println("---");
+        countDownUp(4);
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
