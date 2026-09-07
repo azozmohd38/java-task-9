@@ -13,6 +13,6 @@ public class Task386 {
     }
 
     public static void main(String[] args) {
-        IO.println(findMax(new int[]{3, 7, 2, 9, 4})); // 9
+        IO.println(findMax(new int[]{3, 7, 2, 9, 4}));
     }
 }
