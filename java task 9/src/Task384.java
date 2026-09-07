@@ -1,10 +1,10 @@
 public class Task384 {
-    public static int countChar(String str, char ch) {
-        if (str.isEmpty()) {
+    public static int countChar(String text, char letter) {
+        if (text.isEmpty()) {
             return 0;
         }
-        int match = (str.charAt(0) == ch) ? 1 : 0;
-        return match + countChar(str.substring(1), ch);
+        int match = (text.charAt(0) == letter) ? 1 : 0;
+        return match + countChar(text.substring(1), letter);
     }
 
     public static void main(String[] args) {
