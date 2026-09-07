@@ -7,7 +7,8 @@ public class Task382 {
         if (number == 1) {
             return false;
         }
-        return isEven(number - 2);
+        int smaller = number - 2;
+        return isEven(smaller);
     }
 
     private static void runExamples() {
