@@ -3,7 +3,8 @@ public class Task379 {
         if (text.isEmpty()) {
             return 0;
         }
-        return 1 + length(text.substring(1));
+        String rest = text.substring(1);
+        return 1 + length(rest);
     }
 
     private static void runExamples() {
