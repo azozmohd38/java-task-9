@@ -1,12 +1,12 @@
 public class Task381 {
-    public static boolean isPowerOfTwo(int n) {
-        if (n == 1) {
+    public static boolean isPowerOfTwo(int number) {
+        if (number == 1) {
             return true;
         }
-        if (n <= 0 || n % 2 != 0) {
+        if (number <= 0 || number % 2 != 0) {
             return false;
         }
-        return isPowerOfTwo(n / 2);
+        return isPowerOfTwo(number / 2);
     }
 
     public static void main(String[] args) {
