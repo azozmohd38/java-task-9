@@ -6,7 +6,14 @@ public class Task380 {
         return (number % 10) + sumDigits(number / 10);
     }
 
+    private static void runExamples() {
+        System.out.println(sumDigits(5));
+        System.out.println(sumDigits(123));
+        System.out.println(sumDigits(999));
+        System.out.println(sumDigits(4021));
+    }
+
     public static void main(String[] args) {
-       System.out.println(sumDigits(4021));
+        runExamples();
     }
 }
