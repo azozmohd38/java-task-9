@@ -11,7 +11,14 @@ public class Task385 {
         return numbers[index] + sumArrayHelper(numbers, index + 1);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        System.out.println(sumArray(new int[]{1, 2, 3}));
         System.out.println(sumArray(new int[]{10, 20, 30, 40}));
+        System.out.println(sumArray(new int[]{5}));
+        System.out.println(sumArray(new int[]{}));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
