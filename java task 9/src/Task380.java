@@ -3,7 +3,8 @@ public class Task380 {
         if (number == 0) {
             return 0;
         }
-        return (number % 10) + sumDigits(number / 10);
+        int lastDigit = number % 10;
+        return lastDigit + sumDigits(number / 10);
     }
 
     private static void runExamples() {
