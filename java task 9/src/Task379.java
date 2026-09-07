@@ -7,6 +7,6 @@ public class Task379 {
     }
 
     public static void main(String[] args) {
-        IO.println(length("hello")); // 5
+        IO.println(length("hello"));
     }
 }
