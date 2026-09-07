@@ -8,7 +8,14 @@ public class Task377 {
         return 1 + countDigits(number / 10);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        System.out.println(countDigits(7));
+        System.out.println(countDigits(45));
         System.out.println(countDigits(1000));
+        System.out.println(countDigits(999999));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
