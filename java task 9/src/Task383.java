@@ -9,8 +9,14 @@ public class Task383 {
         return isPalindrome(text.substring(1, text.length() - 1));
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        System.out.println(isPalindrome("level"));
         System.out.println(isPalindrome("madam"));
         System.out.println(isPalindrome("hello"));
+        System.out.println(isPalindrome("a"));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
