@@ -11,7 +11,7 @@ public class Task382 {
     }
 
     public static void main(String[] args) {
-        IO.println(isEven(8));
-        IO.println(isEven(15));
+        System.out.println(isEven(8));
+        System.out.println(isEven(15));
     }
 }
