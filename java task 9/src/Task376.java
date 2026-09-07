@@ -7,7 +7,13 @@ public class Task376 {
         System.out.println(number);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
+        printUp(3);
+        System.out.println("---");
         printUp(5);
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
