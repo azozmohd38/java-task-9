@@ -5,7 +5,8 @@ public class Task377 {
         if (number < 10) {
             return 1;
         }
-        return 1 + countDigits(number / 10);
+        int smaller = number / 10;
+        return 1 + countDigits(smaller);
     }
 
     private static void runExamples() {
