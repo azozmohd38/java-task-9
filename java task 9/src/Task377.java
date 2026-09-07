@@ -9,6 +9,6 @@ public class Task377 {
     }
 
     public static void main(String[] args) {
-        IO.println(countDigits(1000));
+        System.out.println(countDigits(1000));
     }
 }
