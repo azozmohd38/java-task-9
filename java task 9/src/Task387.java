@@ -14,4 +14,11 @@ public class Task387 {
 
         return current + countVowels(text.substring(1));
     }
+
+    private static void runExamples() {
+        System.out.println(countVowels("hello"));
+        System.out.println(countVowels("programming"));
+        System.out.println(countVowels("sky"));
+        System.out.println(countVowels("aeiou"));
+    }
 }
