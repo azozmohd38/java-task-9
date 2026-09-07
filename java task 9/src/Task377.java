@@ -1,11 +1,11 @@
 public class Task377 {
-    public static int countDigits(int n) {
-        n = Math.abs(n);
+    public static int countDigits(int number) {
+        number = Math.abs(number);
 
-        if (n < 10) {
+        if (number < 10) {
             return 1;
         }
-        return 1 + countDigits(n / 10);
+        return 1 + countDigits(number / 10);
     }
 
     public static void main(String[] args) {
