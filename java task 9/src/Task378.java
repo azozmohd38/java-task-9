@@ -7,6 +7,6 @@ public class Task378 {
     }
 
     public static void main(String[] args) {
-        IO.println(multiply(3, 4));
+        System.out.println(multiply(3, 4));
     }
 }
